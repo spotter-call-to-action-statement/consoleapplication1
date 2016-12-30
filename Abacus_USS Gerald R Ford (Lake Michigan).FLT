@@ -1,0 +1,446 @@
+
+[Main]
+Title=Abacus_USS Gerald R Ford (Lake Michigan)
+Description="Yes! The Uss Gerald R Ford pays a visit to its great home state of Michigan USA off shore in lake Michigan in honor of the late president.. The carrier is straight ahead in light snow conditions.. But if you wish to fly around a bit first over Grand Rapids..you might see Adam and Arnie of (Abacus) out in front of the office making snow angels in celebration.."
+AppVersion=10.0.61355
+FlightVersion=1
+
+[Options]
+Sound=True
+Pause=False
+Moonlight=True
+TextDisplayPage=0
+SlewDisplayPage=1
+AxisIndicator=Off
+Titles=False
+
+[Kneeboard]
+Visible=False
+Location=375, 223
+PageId=0
+Page0Scroll=0, 0
+Page1Scroll=0, 0
+Page2Scroll=0, 0
+Page3Scroll=0, 0
+Page4Scroll=0, 0
+Page5Scroll=0, 0
+Page6Scroll=0, 0
+
+[Atc_Menu]
+ScreenUniCoords=1944, 1219, 4303, 3706
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+
+[Panels]
+Panel.On=True
+HUD.On=False
+
+[Window.1]
+Order=0
+Active=True
+Undocked=False
+Maximized=True
+ScreenUniCoords=0, 0, 8191, 6143
+UndocCoords=0, 0, 0, 0
+CurrentCamera={BCA3FDD1-FB83-4BBA-8407-4922A7F0D00D}
+
+[Camera.1.1]
+Guid={B1386D92-4782-4682-A137-738E25D1BAB5}
+Zoom=1
+Translation=0, 0, 0
+Rotation=6, 0, 0
+
+[Camera.1.2]
+Guid={C95EAB58-9E4A-4E2A-A34C-D8D9D948F078}
+Zoom=1
+Translation=0, 0, 0
+Rotation=6, 0, 0
+
+[Camera.1.3]
+Guid={BCA3FDD1-FB83-4BBA-8407-4922A7F0D00C}
+Zoom=1
+Translation=0, 0, 0
+ChaseDirection=180
+ChaseDistance=36
+ChaseAltitude=0.91439998149871826
+
+[Camera.1.4]
+Guid={BCA3FDD1-FB83-4BBA-8407-4922A7F0D00D}
+Zoom=1
+Translation=0, 0, 0
+ChaseDirection=-0
+ChaseDistance=40
+ChaseAltitude=5.9188885688781738
+
+[Camera.1.5]
+Guid={6B79DD49-9B4A-439D-BF40-ACBF157B0BA0}
+Zoom=10
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.6]
+Guid={A2849229-938A-448F-8AC6-01EF2291C171}
+Zoom=16
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.7]
+Guid={60BC0819-BD04-4AF6-8954-8FC8AA3545FF}
+Zoom=8
+Translation=0, 0, 0
+Rotation=-1.1441611051559448, -144.71681213378906, 0
+
+[Camera.1.8]
+Guid={AA8C80C0-9EE2-4284-A1C2-B20CD3F5F3D9}
+Zoom=8
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.9]
+Guid={607C4520-CA6F-4135-AE10-8BF28838068F}
+Zoom=1
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.10]
+Guid={75A8357E-AB58-4294-9416-90C73FAFDD90}
+Zoom=1
+Translation=0, 0, 0
+ChaseDirection=-135
+ChaseDistance=24
+ChaseAltitude=0.80000001192092896
+
+[EFIS]
+Active=False
+NavAid=VOR 1
+Type=Rectangles
+Density=Thin
+Range=Short
+Altitude=0
+Flags=0
+
+[ATC_AgentManager]
+NumberofAgents=0
+
+[ATC_Aircraft.0]
+ActiveFlightPlan=False
+RequestedFlightPlan=False
+AcState=ACSTATE_REQUEST_TAXI_CLEARANCE_OUT_VFR_ATIS
+NumberofWaypoints=0
+ClearanceFlags=80
+CtCur=CLEARANCE_NONE
+WaypointNext=0
+AltCleared=-1
+HdgAssigned=-1
+SquawkAssigned=4608
+LandingSequence=LANDING_NONE
+DepartureRequest=DEPARTURE_VFR_REQUEST_NONE
+ParkingRequest=PARKING_NAME_NONE
+ParkingTypeRequest=PARKING_TYPE_NONE
+PatternLeg=PATTERN_LEG_NONE
+ApproachIndex=-1
+ApproachTransitionIndex=-1
+ApproachRequestIndex=-1
+ApproachTransitionRequestIndex=-1
+RunwayIndex=-1
+RunwayRequestIndex=-1
+ParkingIndex=-1
+FlightFollowing=FLIGHT_FOLLOWING_NO
+AirspaceTransition=AIRSPACE_TRANSITION_NONE
+BVAirspaceTransition=BV_TYPE_NONE
+BVAirspaceTransitionReq=BV_TYPE_NONE
+TakeoffSequence=TAKEOFF_SEQUENCE_NONE
+LandingSequenceNumber=-1
+TaxiRouteCurrent=-1
+CruisingAltitude=-1
+RequestedCruisingAltitude=-1
+ExpectedAltitude=-1
+AircraftSignature=1,0
+
+[ATC_AircraftManager]
+NumberofAircraft=1
+
+[ATC_MessageSystem]
+FrequencyNodes=0
+
+[DateTimeSeason]
+Season=Winter
+Year=2006
+Day=35
+Hours=11
+Minutes=20
+Seconds=47
+
+[Panel.1]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=0
+ViewsOn=1
+
+[Panel.2]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=50
+ViewsOn=0
+
+[Panel.3]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=225
+ViewsOn=0
+
+[Panel.4]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=30
+ViewsOn=0
+
+[Panel.5]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=40
+ViewsOn=0
+
+[Panel.6]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=70
+ViewsOn=0
+
+[Panel.7]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=22001
+ViewsOn=0
+
+[Panel.8]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=22002
+ViewsOn=0
+
+[Panel.9]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=22003
+ViewsOn=0
+
+[User Tip Window]
+Undocked=False
+ScreenUniCoords=500, 400, 7192, 650
+UndocCoords=0, 0, 0, 0
+
+[Sim.0]
+Sim=Abacus FD5 F/A-18E Super Hornet
+
+[SimVars.0]
+Latitude=N42° 18' 37.84"
+Longitude=W86° 14' 25.31"
+Altitude=+002468.55
+Pitch=4.9718428265799064
+Bank=0.0088993333538550136
+Heading=-60.973953117345417
+PVelBodyAxis=0.0006708523632386695
+BVelBodyAxis=-1.5849972061463519e-005
+HVelBodyAxis=-1.1648941233074746e-005
+XVelBodyAxis=-0.0020133721181717717
+YVelBodyAxis=7.761807915690988
+ZVelBodyAxis=362.52208943775537
+SimOnGround=False
+OnPlatformHeight=-9999999999
+
+[Avionics.0]
+Comm1Active=122.950
+Comm1Standby=118.000
+Comm2Active=119.900
+Comm2Standby=121.700
+Nav1Active=110.30
+Nav1Standby=110.60
+OBS1=340
+Nav2Active=116.80
+Nav2Standby=109.60
+OBS2=315
+Transponder=1200
+ADFActive=353
+ADF2Active=281
+DMESelected=1
+ComTransmit=1
+ComReceiveBoth=False
+AudioNav1Listen=False
+AudioNav2Listen=False
+AudioMarkerListen=False
+AudioDmeListen=False
+AudioAdfListen=False
+AudioAdf2Listen=False
+AvionicsSwitch=True
+
+[Slew.0]
+Active=False
+
+[Freeze.0]
+Location=False
+Altitude=False
+Attitude=False
+
+[Engine Parameters.1.0]
+ThrottleLeverPct=0.8997802734375
+PropellerLeverPct=0.99981689453125
+MixtureLeverPct=0.99981689453125
+Pct Engine RPM=0.96631554554622767
+MaxReachedEngineRPM=17402.729953017846
+LeftMagneto=True
+RightMagneto=True
+GeneratorSwitch=True
+CowlFlapPct=0
+FuelPumpSwitch=False
+CarbHeat/DeiceSwitch=False
+Afterburner=False
+
+[Engine Parameters.2.0]
+ThrottleLeverPct=0.8997802734375
+PropellerLeverPct=0.99981689453125
+MixtureLeverPct=0.99981689453125
+Pct Engine RPM=0.96631554554622767
+MaxReachedEngineRPM=17402.729953017846
+LeftMagneto=False
+RightMagneto=False
+GeneratorSwitch=True
+CowlFlapPct=0
+FuelPumpSwitch=False
+CarbHeat/DeiceSwitch=False
+Afterburner=False
+
+[Fuel.0]
+TankSelector=All
+TankSelector1=All
+Center=89.632057189941406
+LeftMain=95.214805603027344
+RightMain=95.214805603027344
+LeftAux=100
+RightAux=100
+LeftTip=100
+RightTip=100
+Center 2=100
+Center 3=100
+External 1=100
+External 2=100
+
+[Systems.0]
+BatterySwitch=True
+StructuralDeiceSwitch=False
+PropDeiceSwitch=False
+Autobrakes=0
+StandbyVacuum=False
+PropSync=False
+AutoFeatherSwitch=False
+FlightDirector=False
+PanelLights=False
+
+[Gauges.0]
+KollsmanSetting=29.916912078857422
+
+[Switches.0]
+PitotHeat=False
+BeaconLights=False
+LandingLights=False
+LogoLights=False
+NavLights=False
+PanelLights=False
+RecognitionLights=False
+StrobeLights=False
+TaxiLights=False
+WingLights=False
+CabinLights=False
+
+[AutoPilot.0]
+MasterSwitch=False
+WingLeveler=False
+Nav1Lock=False
+HeadingLock=False
+HeadingValue=0
+AltitudeLock=False
+AltitudeValue=0
+AttitudeHold=False
+AirspeedHold=False
+AirspeedValue=0
+MachHold=False
+MachValue=0
+VerticalSpeedHold=False
+VerticalSpeedValue=0
+RPMHold=False
+RPMValue=0
+GlideslopeHold=False
+ApproachHold=False
+BackCourseHold=False
+YawDamper=False
+ToGa=False
+AutoThrottleArm=False
+GPSdrivesNAV1=False
+IsUsedForLesson=False
+
+[Payload.0]
+PayloadList=-1
+
+[Controls.0]
+SpoilersHandle=000.00
+FlapsHandle=100.00
+LeftFlap=100.00
+RightFlap=100.00
+GearsHandle=000.01
+Gear1=100.00
+Gear2=100.00
+Gear3=100.00
+YokeY=051.76
+YokeX=050.00
+Rudder=050.00
+LeftBrake=000.00
+RightBrake=000.00
+ParkingBrake=000.00
+ElevatorTrim=050.00
+RudderTrimPct=0
+AileronTrimPct=0
+
+[SimScheduler]
+SimSpeed=001.00
+SimTime=910.84484701298356
+
+[Weather]
+WeatherType=2
+
+[Message Window]
+Undocked=False
+ScreenUniCoords=64, 200, 8064, 129
+UndocCoords=0, 0, 0, 0
+
+[Flying Tip Window]
+Undocked=False
+ScreenUniCoords=500, 400, 7192, 650
+UndocCoords=0, 0, 0, 0
